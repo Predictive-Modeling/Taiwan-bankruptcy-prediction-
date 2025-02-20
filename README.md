@@ -46,22 +46,21 @@ published by public companies. These ratios provide insights into a company's fi
 health and potential risk of bankruptcy, allowing researchers to create more accurate
 prediction models.
 
-## Data Preprocessing..........................................................................................................
+## Data Preprocessing
 
 The dataset obtained from Kaggle had already undergone initial preprocessing,
 with categorical predictors encoded and no missing samples present. This allowed us to
 proceed directly to subsequent preprocessing steps, which are detailed in the following
 sections.
 
-### A. Near-zero variance.................................................................................................
-
+### A. Near-zero variance
 ```
 We identified three predictors with near-zero variance: current liability to
 current assets, interest coverage ratio to EBIT, and Net income flag. These
 variables were removed from the dataset and we retained 92 predictors.
 ```
 
-### B. Transformations......................................................................................................
+### B. Transformations
 
 ```
 We investigated the dataset further and found highly significant skewed
@@ -84,7 +83,7 @@ showing improvements in their distributional symmetry. Although other predictors
 have slight improvements, the overall reduction in skewness across the dataset
 is expected to contribute positively to model performance.
 ```
-### C. Correlations............................................................................................................
+### C. Correlations
 
 ```
 A correlation matrix was employed to investigate the relationships among
@@ -96,7 +95,7 @@ eliminated from the dataset.
 This process resulted in the removal of 28 predictors, leaving 64 variables.
 ```
 
-## Data Spending................................................................................................................
+## Data Spending
 
 The dataset shows high class imbalance, with bankruptcy cases representing
 less than 4% of the sample, as illustrated in Figure 4. To address this imbalance and
@@ -106,7 +105,7 @@ training and testing sets. The dataset was split, allocating 80% of the sample t
 training set and 20% to the test set, while maintaining the original class distribution
 within each subset.
 
-### A. Resampling and Performance Metrics..................................................................
+### A. Resampling and Performance Metrics
 
 ```
 In the model building, a 5-fold cross-validation resampling technique was
