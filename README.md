@@ -1,5 +1,5 @@
 # Bankruptcy-Prediction-
-Taiwan bankruptcy prediction using statistical Machine Learning Methods
+Taiwan bankruptcy prediction using statistical machine learning methods
 
 ```
 Kepha Barasa and Muneendra Magani
