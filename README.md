@@ -1,4 +1,4 @@
-# Taiwan-bankruptcy-prediction-
+# Bankruptcy-Prediction-
 Taiwan bankruptcy prediction using statistical Machine Learning Methods
 
 ```
