@@ -1,13 +1,11 @@
 # Taiwan-bankruptcy-prediction-
 Taiwan bankruptcy prediction using statistical Machine Learning Methods
-# Company Bankruptcy Prediction
 
 ```
 Kepha Barasa and Muneendra Magani
 
 ```
-## Abstract.............................................................................................................................
-
+## Abstract
 Accurate bankruptcy prediction is essential for financial institutions to make
 better lending decisions. The effectiveness of such predictions mainly depends on the
 data used and the methods applied. While many studies focus on refining prediction
